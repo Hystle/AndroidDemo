@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_menu_cm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示ContextMenu"/>
+	
+	<!-- 换行使用\n -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 点击menu显示选项菜单\n2. 长按按钮显示上下文菜单" 
+        android:textSize="25dp"/>
+
+</LinearLayout>

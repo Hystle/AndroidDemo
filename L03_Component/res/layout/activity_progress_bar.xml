@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_progressBar_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在加载中..." />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_progressBar_trueLoading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:progress="10" />
+
+    <SeekBar
+        android:id="@+id/sb_progressBar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_progressBar_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 滑动下面的滑杆后, 上面的进度条会同步\n2. 滑动到最大值时, 最上面的进度条消失" />
+
+</LinearLayout>
