@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">L04_DataStorage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sp">SpActivity</string>
+    <string name="title_activity_if">IfActivity</string>
+    <string name="title_activity_of">OfActivity</string>
+    <string name="title_activity_db">DBActivity</string>
+    <string name="title_activity_nw">NWActivity</string>
+    <string name="url">http://192.168.2.12:8080/L04_WebServer/index.jsp</string>
+
+</resources>
