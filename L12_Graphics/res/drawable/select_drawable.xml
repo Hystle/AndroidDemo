@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- 注意: 特殊的效果item必须写在正常的效果之前; 在layout中配置需要此文件 -->
+    
+    <!-- 按下显示的图片 -->
+    <item 
+        android:drawable="@drawable/main_index_search_pressed" 
+        android:state_pressed="true">
+    </item>
+	
+    <!-- 正常图片 -->
+    <item android:drawable="@drawable/main_index_search_normal"></item>
+
+</selector>
