@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/et_relative_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:hint="Message">
+        <requestFocus />
+    </EditText>
+    
+    <!-- 引用其他View使用@id; 而添加id是@+id -->
+    <Button 
+        android:id="@+id/btn_relative_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@id/et_relative_msg"
+        android:layout_alignRight="@id/et_relative_msg"
+        android:layout_marginLeft="10dp">
+    </Button>
+    <Button 
+        android:id="@+id/btn_relative_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignTop="@id/btn_relative_ok"
+        android:layout_toLeftOf="@id/btn_relative_ok"
+        android:layout_marginRight="5dp">
+    </Button>
+    
+    <Button 
+        android:id="@+id/btn_relative_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相对于parent居中"
+        android:layout_centerInParent="true">
+    </Button>
+
+</RelativeLayout>
